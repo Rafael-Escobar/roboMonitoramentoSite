@@ -1,0 +1,17 @@
+{
+    "name": "robointerwebs",
+    "description": "Robo de monitoramento",
+    "authors": [
+        {
+            "name": "Rafael Escobar"
+        }
+    ],
+    "require": {},
+    "autoload": {
+            "psr-4": {
+                "Model\\": "model",
+                "Controller\\": "controller",
+                "Library\\": "lib"
+            }
+    }
+}
